@@ -1,0 +1,64 @@
+body {
+  color: black;
+  background: image-url("brickwall.png");
+  text-align: center;
+  font-family: $base-font;
+  font-size: $base-size;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+}
+
+
+
+h1 {
+  font-family: $header-font;
+  font-size: $header-size;
+  letter-spacing: 0em;
+}
+
+h2 {
+  font-family: $base-font;
+  font-size: $base-size;
+  line-height: $base-height;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  margin-bottom: 82px;
+}
+
+h3 {
+  font-family: $base-font;
+  font-size: $base-size;
+  line-height: $base-height;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  margin-top: 21px;
+  margin-bottom: 42px;
+}
+
+.subtitle {
+  font-size: 16px;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.fa {
+  font-size: 80px;
+  padding-bottom: 100px;
+}
+
+.section {
+  margin: 0px auto;
+  width: 60%;
+  padding-top: 82px;
+  padding-bottom: 0px;
+}
+
+.seperator {
+  margin-top: 41px;
+}
