@@ -1,63 +1,93 @@
 body {
-  color: black;
+  color: rgba(0, 35, 100, 0.7);
   background: image-url("brickwall.png");
   text-align: center;
   font-family: $base-font;
   font-size: $base-size;
   font-weight: 300;
+  line-height: $base-height;
   letter-spacing: 0.1em;
 }
 
-p {
-  margin-bottom: 42px;
+h1, h2, h3, ul, li, p {
+  margin: 0px;
+  padding: 0px;
 }
 
 h1 {
   font-family: $header-font;
   font-size: $header-size;
   letter-spacing: 0em;
+  margin: 20px;
 }
 
 h2 {
   font-family: $base-font;
   font-size: $base-size;
-  line-height: $base-height;
   font-weight: 300;
   letter-spacing: 0.1em;
+  margin: 80px 0px 20px 0px;
 }
 
 h3 {
   font-family: $base-font;
   font-size: 20px;
-  line-height: $base-height;
   font-weight: 600;
   letter-spacing: 0.1em;
   margin-top: 21px;
-  margin-bottom: 84px;
+  margin-bottom: 42px;
 }
+
 
 .subtitle {
   font-size: 16px;
 }
 
-.align-left {
+.social {
+  letter-spacing: 0em;
+}
+
+.left {
   text-align: left;
 }
 
-.align-right {
+.right {
   text-align: right;
 }
 
-.fa {
-  font-size: 80px;
-  padding-bottom: 100px;
+.heavy {
+  font-weight: 400;
 }
+
+.super-heavy {
+  font-weight: 600;
+}
+
+.small {
+  font-size: 15px;
+}
+
+.large {
+  font-size: 50px;
+}
+
 
 .section {
   margin: 0px auto;
-  width: 60%;
-  padding-top: 84px;
+  width: 100%;
+  padding-top: 100px;
   padding-bottom: 0px;
+  padding-left: 20%;
+  padding-right: 20%;
+  p {
+    margin-bottom: 42px;
+  }
+}
+
+.header {
+  background: rgba(0, 35, 100, 0.5);
+  color: white;
+  padding: 100px 0px 100px 0px;
 }
 
 .seperator {
